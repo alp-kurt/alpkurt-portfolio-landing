@@ -1,32 +1,36 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import pacmanLogo from "./assets/pacman.png";
+import webLogo from "./assets/web.png";
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
       <div>
-        <a target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
+        <h1>Alp Kurt's Personal Website</h1>
+        <p>-- currently rebuilding the app --</p>
+        <a target="_blank" href="https://webdeveloper.alpkurt.com">
+          <img src={webLogo} className="logo" alt="Web App logo" />
         </a>
-        <a target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
+        <a target="_blank" href="https://gamedeveloper.alpkurt.com">
+          <img src={pacmanLogo} className="logo react" alt="Pacman logo" />
         </a>
       </div>
-      <h1>Alp Kurt's Personal Website</h1>
+
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
+        <p>portfolio links 👆</p>
+        <p>professional links👇</p>
+      </div>
+      <div className="links-group">
         <p>
-          currently rebuilding the app
+          •
+          <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/alp-kurt/">LinkedIn</a> •{" "}
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/pabron7">GitHub</a> •{" "}
+          <a target="_blank" rel="noopener noreferrer" href="https://pabron.itch.io/">Itch</a> 
+          •
         </p>
       </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
