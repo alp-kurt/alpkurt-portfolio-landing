@@ -1,13 +1,63 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Alp Kurt | Personal Website</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alp Kurt | Personal Website</title>
+  <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Alp Kurt",
+        "alternateName": "pabron7",
+        "jobTitle": "Game Developer, Web Developer",
+        "email": "mailto:krtalp@gmail.com",
+        "url": "https://alpkurt.com", 
+        "sameAs": [
+          "https://www.linkedin.com/in/alp-kurt/",
+          "https://github.com/pabron7",
+          "https://pabron.itch.io/",
+        ],
+        "hasPart": [
+  {
+    "@type": "WebSite",
+    "name": "Web Developer Portfolio",
+    "url": "https://webdeveloper.alpkurt.com"
+  },
+  {
+    "@type": "WebSite",
+    "name": "Game Developer Portfolio",
+    "url": "https://gamedeveloper.alpkurt.com"
+  }
+]
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Berlin",
+          "addressCountry": "Germany"
+        },
+        "worksFor": {
+          "@type": "Organization",
+          "name": "RASITGR Games"
+        },
+        "knowsAbout": [
+          "Game Development",
+          "Web Development",
+          "React",
+          "JavaScript",
+          "Unity",
+          "C#",
+          "Node"
+        ],
+        "description": "Alp Kurt is a Berlin-based Game and Web Developer with experience in indie game development, front-end web technologies, and creative software design.",
+      }
+      </script>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
 </html>
