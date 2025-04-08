@@ -1,10 +1,12 @@
 import pacmanLogo from "./assets/pacman.png";
 import webLogo from "./assets/web.png";
 import "./App.css";
+import Ghost from './components/Ghost';
 
 function App() {
   return (
     <>
+    <Ghost /> <Ghost /> <Ghost />
       <div>
         <h1>Alp Kurt's Personal Website</h1>
         <p>-- currently rebuilding the app --</p>
