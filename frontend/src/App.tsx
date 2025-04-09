@@ -3,6 +3,7 @@ import webLogo from "./assets/web.png";
 import './App.css';
 import Ghost from "./components/Ghost";
 import { logCustomEvent } from "./analytics";
+import GlobalGhostCounter from "./components/GlobalGhostCounter";
 
 function App() {
   const handleClick = (eventName: string, url: string) => {
@@ -16,6 +17,7 @@ function App() {
       <div>
         <h1>Alp Kurt's Personal Website</h1>
         <p>-- currently rebuilding the app --</p>
+        <GlobalGhostCounter />
         <img
           src={webLogo}
           className="logo"
