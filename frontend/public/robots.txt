@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Sitemap for this root domain
+Sitemap: https://alpkurt.com/sitemap.xml
+
+# Sitemap index including subdomains
+Sitemap: https://alpkurt.com/sitemap-index.xml
