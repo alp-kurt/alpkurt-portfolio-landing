@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import GhostIcon from "../assets/ghost.png";
+import { useIncrementGhostCounter } from "../hooks/useIncrementGhostCounter";
 
 type Axis = "x" | "y";
 
@@ -15,9 +16,12 @@ const Ghost: React.FC = () => {
   const offset = 10;
   const [isVisible, setIsVisible] = useState(true);
 
+  const incrementGhostsCaught = useIncrementGhostCounter();
+
   const handleClick = () => {
     console.log("ghost caught!");
     setIsVisible(false);
+    incrementGhostsCaught();
   };
 
   useEffect(() => {
