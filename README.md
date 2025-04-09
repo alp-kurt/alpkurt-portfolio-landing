@@ -16,7 +16,7 @@ This frontend project is built with **Vite** and **React**, and is deployed via 
 
 ## Changelog
 
-See [Changelog](frontend/changelog.md) for version history and updates.
+See [Changelog](frontend/CHANGELOG.md) for version history and updates.
 
 ---
 
