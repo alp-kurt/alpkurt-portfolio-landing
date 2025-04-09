@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.5](https://github.com/pabron7/alpkurt-portfolio-landing/compare/v0.0.4...v0.0.5) (2025-04-09)
+
+
+### Bug Fixes
+
+* ld+json syntax issue that blocks indexing rich data ([7885ff8](https://github.com/pabron7/alpkurt-portfolio-landing/commit/7885ff890e146419deac19a65045b05ed9637834))
+
 ### [0.0.4](https://github.com/pabron7/alpkurt-portfolio-landing/compare/v0.0.2...v0.0.4) (2025-04-09)
 
 
