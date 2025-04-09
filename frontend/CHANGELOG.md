@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.6](https://github.com/pabron7/alpkurt-portfolio-landing/compare/v0.0.5...v0.0.6) (2025-04-09)
+
+
+### Features
+
+* add og-preview image ([4941877](https://github.com/pabron7/alpkurt-portfolio-landing/commit/4941877896db730e2df51cf36d9357db92552edf))
+* create hook for ghost counter display ([42e2ff4](https://github.com/pabron7/alpkurt-portfolio-landing/commit/42e2ff46bbf7edadeaca09e85cc771b467771063))
+* create hook for incrementing ghost counter ([46d988f](https://github.com/pabron7/alpkurt-portfolio-landing/commit/46d988f0fb75cc2dab1288077ce9814d9c198211))
+* implement caught ghost counter displayer and increase functionality ([de4c5ca](https://github.com/pabron7/alpkurt-portfolio-landing/commit/de4c5ca385825d537121439d663f15f2f02bc230))
+* implement firestore db ([82f0e7d](https://github.com/pabron7/alpkurt-portfolio-landing/commit/82f0e7ddbd68ad9263ded5df8cf1182a9289defc))
+
+
+### Bug Fixes
+
+* syntax issues in index.html ([544fa86](https://github.com/pabron7/alpkurt-portfolio-landing/commit/544fa862aae5a11b77ff346fe59f71149c9d4d8f))
+
 ### [0.0.5](https://github.com/pabron7/alpkurt-portfolio-landing/compare/v0.0.4...v0.0.5) (2025-04-09)
 
 
