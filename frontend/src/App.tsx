@@ -63,7 +63,7 @@ function App() {
           <a
             target="_blank"
             rel="noopener noreferrer"
-            href="https://github.com/pabron7"
+            href="https://github.com/alp-kurt"
             onClick={() => logCustomEvent("clicked_github")}
           >
             GitHub
